@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(231, 231, 231);
+    background-color: #a06eb8;
+    transition: background 2s;
+}
+select#localViagem {
+    color: rgb(58, 1, 58);
+    position: relative;
+    border: 1.5px solid purple;
+    top: 250px;
+    left: 40%;
+    border-radius: 50rem;
+    text-align: center;
+    width: 15%;
+    height: 25px;
+}
+
+div#container {
+    position: absolute;
+    border-left: 75px solid;
+    border-bottom: 30px solid;
+    border-radius: 20px;
+    color: rgb(219, 158, 255);
+    top: 50px;
+    left: 5%;
+    transition: color 1s;
+}
+div#cButton {
+    position: absolute;
+    border-left: 25px solid;
+    border-bottom: 25px solid;
+    border-radius: 25px;
+    color: #ffd2fd;
+    top: 52.45px;
+    left: 5.1%;
+    transition: left 1s;
+}
+@media (max-width: 425px) {
+    div#container {
+        position: absolute;
+        border-left: 40px solid;
+        border-bottom: 30px solid;
+        border-radius: 20px;
+        color: rgb(219, 158, 255);
+        top: 50px;
+        left: 5%;
+        transition: color 1s;
+    }
+}
