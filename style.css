@@ -38,7 +38,7 @@ div#cButton {
 @media (max-width: 425px) {
     div#container {
         position: absolute;
-        border-left: 40px solid;
+        border-left: 38px solid;
         border-bottom: 30px solid;
         border-radius: 20px;
         color: rgb(219, 158, 255);
