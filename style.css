@@ -35,7 +35,111 @@ div#cButton {
     left: 5.1%;
     transition: left 1s;
 }
+@media (max-width: 1440px) {
+    div#container {
+    position: absolute;
+    border-left: 78px solid;
+    border-bottom: 30px solid;
+    border-radius: 20px;
+    color: rgb(219, 158, 255);
+    top: 50px;
+    left: 5%;
+    transition: color 1s;
+    }
+}
+@media (max-width: 1024px) {
+    div#container {
+    position: absolute;
+    border-left: 64px solid;
+    border-bottom: 30px solid;
+    border-radius: 20px;
+    color: rgb(219, 158, 255);
+    top: 50px;
+    left: 5%;
+    transition: color 1s;
+    }
+    select#localViagem {
+        color: rgb(58, 1, 58);
+        position: relative;
+        border: 1.5px solid purple;
+        top: 250px;
+        left: 40%;
+        border-radius: 50rem;
+        text-align: center;
+        width: 15%;
+        height: 25px;
+    }
+}
+@media (max-width: 768px) {
+    div#container {
+    position: absolute;
+    border-left: 55px solid;
+    border-bottom: 30px solid;
+    border-radius: 20px;
+    color: rgb(219, 158, 255);
+    top: 50px;
+    left: 5%;
+    transition: color 1s;
+    }
+    select#localViagem {
+        color: rgb(58, 1, 58);
+        position: relative;
+        border: 1.5px solid purple;
+        top: 250px;
+        left: 35%;
+        border-radius: 50rem;
+        text-align: center;
+        width: 30%;
+        height: 25px;
+    }
+}
 @media (max-width: 425px) {
+    div#container {
+        position: absolute;
+        border-left: 42px solid;
+        border-bottom: 30px solid;
+        border-radius: 20px;
+        color: rgb(219, 158, 255);
+        top: 50px;
+        left: 5%;
+        transition: color 1s;
+    }
+    select#localViagem {
+        color: rgb(58, 1, 58);
+        position: relative;
+        border: 1.5px solid purple;
+        top: 250px;
+        left: 25%;
+        border-radius: 50rem;
+        text-align: center;
+        width: 50%;
+        height: 25px;
+    }
+}
+@media (max-width: 375px) {
+    div#container {
+        position: absolute;
+        border-left: 40px solid;
+        border-bottom: 30px solid;
+        border-radius: 20px;
+        color: rgb(219, 158, 255);
+        top: 50px;
+        left: 5%;
+        transition: color 1s;
+    }
+    select#localViagem {
+        color: rgb(58, 1, 58);
+        position: relative;
+        border: 1.5px solid purple;
+        top: 250px;
+        left: 40%;
+        border-radius: 50rem;
+        text-align: center;
+        width: 15%;
+        height: 25px;
+    }
+}
+@media (max-width: 375px) {
     div#container {
         position: absolute;
         border-left: 38px solid;
@@ -45,5 +149,16 @@ div#cButton {
         top: 50px;
         left: 5%;
         transition: color 1s;
+    }
+    select#localViagem {
+        color: rgb(58, 1, 58);
+        position: relative;
+        border: 1.5px solid purple;
+        top: 250px;
+        left: 25%;
+        border-radius: 50rem;
+        text-align: center;
+        width: 50%;
+        height: 25px;
     }
 }
