@@ -18,6 +18,11 @@ function night() {
         n_d = 0
     }
 }
+
+function enter() {
+    body.style.cursor = 'pointer'
+}
+
 document.onchange = night()
 
 if (localStorage.getItem('local') != null) {
